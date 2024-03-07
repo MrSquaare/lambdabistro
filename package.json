@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "lambdabistro",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "turbo dev"
+  },
+  "devDependencies": {
+    "turbo": "^1.12.5"
+  }
+}

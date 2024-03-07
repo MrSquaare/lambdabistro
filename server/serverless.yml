@@ -1,0 +1,19 @@
+service: lambdabistros
+frameworkVersion: '3'
+
+plugins:
+  - serverless-esbuild
+  - serverless-offline-sqs
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  hello-world:
+    handler: ./src/functions/hello-world/index.handler
+    events:
+      - http:
+          path: /hello-world
+          method: get
