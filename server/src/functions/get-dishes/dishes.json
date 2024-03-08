@@ -1,0 +1,252 @@
+[
+  {
+    "id": "dish_01",
+    "name": "Soupe à l'oignon",
+    "price": 8.5
+  },
+  {
+    "id": "dish_02",
+    "name": "Coq au vin",
+    "price": 18.75
+  },
+  {
+    "id": "dish_03",
+    "name": "Ratatouille",
+    "price": 15.0
+  },
+  {
+    "id": "dish_04",
+    "name": "Bouillabaisse",
+    "price": 25.0
+  },
+  {
+    "id": "dish_05",
+    "name": "Quiche Lorraine",
+    "price": 12.5
+  },
+  {
+    "id": "dish_06",
+    "name": "Cassoulet",
+    "price": 22.0
+  },
+  {
+    "id": "dish_07",
+    "name": "Boeuf bourguignon",
+    "price": 24.0
+  },
+  {
+    "id": "dish_08",
+    "name": "Duck confit",
+    "price": 20.0
+  },
+  {
+    "id": "dish_09",
+    "name": "Tarte Tatin",
+    "price": 9.5
+  },
+  {
+    "id": "dish_10",
+    "name": "Croque Monsieur",
+    "price": 10.0
+  },
+  {
+    "id": "dish_11",
+    "name": "Salade Niçoise",
+    "price": 13.5
+  },
+  {
+    "id": "dish_12",
+    "name": "Foie gras",
+    "price": 30.0
+  },
+  {
+    "id": "dish_13",
+    "name": "Éclairs",
+    "price": 6.5
+  },
+  {
+    "id": "dish_14",
+    "name": "Madeleines",
+    "price": 5.5
+  },
+  {
+    "id": "dish_15",
+    "name": "Macarons",
+    "price": 4.0
+  },
+  {
+    "id": "dish_16",
+    "name": "Crème brûlée",
+    "price": 8.0
+  },
+  {
+    "id": "dish_17",
+    "name": "Mousse au chocolat",
+    "price": 7.5
+  },
+  {
+    "id": "dish_18",
+    "name": "Tarte au citron",
+    "price": 8.0
+  },
+  {
+    "id": "dish_19",
+    "name": "Flamiche",
+    "price": 11.0
+  },
+  {
+    "id": "dish_20",
+    "name": "Raclette",
+    "price": 17.0
+  },
+  {
+    "id": "dish_21",
+    "name": "Gratin Dauphinois",
+    "price": 14.0
+  },
+  {
+    "id": "dish_22",
+    "name": "Escargots",
+    "price": 12.0
+  },
+  {
+    "id": "dish_23",
+    "name": "Pain perdu",
+    "price": 9.0
+  },
+  {
+    "id": "dish_24",
+    "name": "Salmon en Papillote",
+    "price": 19.5
+  },
+  {
+    "id": "dish_25",
+    "name": "Ratatouille Tartine",
+    "price": 16.0
+  },
+  {
+    "id": "dish_26",
+    "name": "Gougères",
+    "price": 7.0
+  },
+  {
+    "id": "dish_27",
+    "name": "Brie en Croute",
+    "price": 14.5
+  },
+  {
+    "id": "dish_28",
+    "name": "Moules Frites",
+    "price": 18.5
+  },
+  {
+    "id": "dish_29",
+    "name": "Pissaladière",
+    "price": 10.5
+  },
+  {
+    "id": "dish_30",
+    "name": "Bisque",
+    "price": 13.0
+  },
+  {
+    "id": "dish_31",
+    "name": "Choucroute Garnie",
+    "price": 20.5
+  },
+  {
+    "id": "dish_32",
+    "name": "Blanquette de Veau",
+    "price": 23.0
+  },
+  {
+    "id": "dish_33",
+    "name": "Tarte flambée",
+    "price": 11.5
+  },
+  {
+    "id": "dish_34",
+    "name": "Andouillette",
+    "price": 15.5
+  },
+  {
+    "id": "dish_35",
+    "name": "Poulet Basquaise",
+    "price": 17.5
+  },
+  {
+    "id": "dish_36",
+    "name": "Galette Bretonne",
+    "price": 10.0
+  },
+  {
+    "id": "dish_37",
+    "name": "Sole Meunière",
+    "price": 22.5
+  },
+  {
+    "id": "dish_38",
+    "name": "Pot-au-feu",
+    "price": 19.0
+  },
+  {
+    "id": "dish_39",
+    "name": "Oeufs en Meurette",
+    "price": 12.5
+  },
+  {
+    "id": "dish_40",
+    "name": "Rognons de Veau",
+    "price": 21.0
+  },
+  {
+    "id": "dish_41",
+    "name": "Clafoutis",
+    "price": 8.5
+  },
+  {
+    "id": "dish_42",
+    "name": "Profiteroles",
+    "price": 8.5
+  },
+  {
+    "id": "dish_43",
+    "name": "Soufflé au fromage",
+    "price": 9.0
+  },
+  {
+    "id": "dish_44",
+    "name": "Tartiflette",
+    "price": 16.0
+  },
+  {
+    "id": "dish_45",
+    "name": "Pâté en Croûte",
+    "price": 13.5
+  },
+  {
+    "id": "dish_46",
+    "name": "Fondue Savoyarde",
+    "price": 24.0
+  },
+  {
+    "id": "dish_47",
+    "name": "Croissant",
+    "price": 2.5
+  },
+  {
+    "id": "dish_48",
+    "name": "Baguette",
+    "price": 1.5
+  },
+  {
+    "id": "dish_49",
+    "name": "Camembert Rôti",
+    "price": 14.0
+  },
+  {
+    "id": "dish_50",
+    "name": "Crêpes Suzette",
+    "price": 10.5
+  }
+]

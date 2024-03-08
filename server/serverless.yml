@@ -17,3 +17,9 @@ functions:
       - http:
           path: /hello-world
           method: get
+  get-dishes:
+    handler: ./src/functions/get-dishes/index.handler
+    events:
+      - http:
+          path: /dishes
+          method: get
