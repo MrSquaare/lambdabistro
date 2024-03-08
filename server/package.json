@@ -19,5 +19,9 @@
     "serverless-offline": "^13.3.3",
     "serverless-offline-sqs": "^8.0.0",
     "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-apigatewaymanagementapi": "^3.529.1",
+    "mongoose": "^8.2.1"
   }
 }

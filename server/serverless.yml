@@ -1,6 +1,8 @@
 service: lambdabistros
 frameworkVersion: '3'
 
+useDotenv: true
+
 plugins:
   - serverless-esbuild
   - serverless-offline-sqs
@@ -17,6 +19,20 @@ functions:
       - http:
           path: /hello-world
           method: get
+  hello-world-ws:
+    handler: ./src/functions/hello-world-ws/index.handler
+    environment:
+      AWS_ACCESS_KEY_ID: ${env:HELLO_WORLD_WS_AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${env:HELLO_WORLD_WS_AWS_SECRET_ACCESS_KEY}
+      APIGATEWAY_ENDPOINT: ${env:HELLO_WORLD_WS_APIGATEWAY_ENDPOINT}
+      MONGODB_URI: ${env:HELLO_WORLD_WS_MONGODB_URI}
+    events:
+      - websocket:
+          route: $connect
+      - websocket:
+          route: $disconnect
+      - websocket:
+          route: $default
   get-dishes:
     handler: ./src/functions/get-dishes/index.handler
     events:

@@ -1,0 +1,22 @@
+version: "3"
+
+volumes:
+  db_data:
+
+services:
+  db:
+    image: mongo
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+      - "27017:27017"
+    volumes:
+      - db_data:/data/db
+  sqs:
+    image: softwaremill/elasticmq
+    restart: unless-stopped
+    ports:
+      - "9324:9324"
+      - "9325:9325"
