@@ -13,26 +13,18 @@ provider:
   runtime: nodejs18.x
 
 functions:
-  hello-world:
-    handler: ./src/functions/hello-world/index.handler
-    events:
-      - http:
-          path: /hello-world
-          method: get
-  hello-world-ws:
-    handler: ./src/functions/hello-world-ws/index.handler
+  register-client:
+    handler: ./src/functions/register-client/index.handler
     environment:
-      AWS_ACCESS_KEY_ID: ${env:HELLO_WORLD_WS_AWS_ACCESS_KEY_ID}
-      AWS_SECRET_ACCESS_KEY: ${env:HELLO_WORLD_WS_AWS_SECRET_ACCESS_KEY}
-      APIGATEWAY_ENDPOINT: ${env:HELLO_WORLD_WS_APIGATEWAY_ENDPOINT}
-      MONGODB_URI: ${env:HELLO_WORLD_WS_MONGODB_URI}
+      AWS_ACCESS_KEY_ID: ${env:REGISTER_CLIENT_AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${env:REGISTER_CLIENT_AWS_SECRET_ACCESS_KEY}
+      APIGATEWAY_ENDPOINT: ${env:REGISTER_CLIENT_APIGATEWAY_ENDPOINT}
+      MONGODB_URI: ${env:REGISTER_CLIENT_MONGODB_URI}
     events:
       - websocket:
           route: $connect
       - websocket:
           route: $disconnect
-      - websocket:
-          route: $default
   get-dishes:
     handler: ./src/functions/get-dishes/index.handler
     events:
