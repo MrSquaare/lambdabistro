@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "serverless offline",
-    "test": "vitest src/**/*.test.ts"
+    "test": "vitest"
   },
   "devDependencies": {
     "@common/types": "workspace:*",
