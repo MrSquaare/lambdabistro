@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "name": "lambdabistro",
+      "path": "."
+    },
+    {
+      "name": "server",
+      "path": "./server"
+    },
+    {
+      "name": "web-app",
+      "path": "./web-app"
+    },
+    {
+      "name": "@common/types",
+      "path": "./common/types"
+    }
+  ],
+}
